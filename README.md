@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was rewrite Thomas Weibenfalk's React Hook tutorial project with Typescript [demo](https://cherie-react-typscript-video.netlify.app/).
 
 ## Available Scripts
 
