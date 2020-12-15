@@ -1,5 +1,4 @@
 import React from "react"
-import PlaylistItems from "./containers/PlaylistItems"
 import StyledPlaylistItem from "./styles/StyledPlaylistItem"
 
 interface PlaylistItemProps {

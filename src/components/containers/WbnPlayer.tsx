@@ -91,12 +91,12 @@ const WbnPlayer: React.FC<WbnPlayerProps> = ({ match, history, location }) => {
 
             }
         }
-    }, [history, videos, activeVideo.id, match.params.activeVideo])
+    }, [history, videos, activeVideo.id, match.params.activeVideo, location.state, savedState.activeVideo])
 
     // set locat storage
     useEffect(() => {
         localStorage.setItem(`${playlistName}`, JSON.stringify({ activeVideo: activeVideo, nightMode: nightMode }))
-    }, [videos, activeVideo])
+    }, [videos, activeVideo, nightMode, playlistName])
 
 
     const endCallback = (): void => {
