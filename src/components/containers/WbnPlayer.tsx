@@ -91,7 +91,7 @@ const WbnPlayer: React.FC<WbnPlayerProps> = ({ match, history, location }) => {
 
             }
         }
-    }, [history, videos, activeVideo.id, match.params.activeVideo, location.state, savedState.activeVideo])
+    }, [history, videos, activeVideo.id, match.params.activeVideo, location.state, savedState])
 
     // set locat storage
     useEffect(() => {
